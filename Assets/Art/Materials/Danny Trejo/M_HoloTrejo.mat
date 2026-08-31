@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-945217983675796024
+--- !u!114 &-8713631686842563004
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,30 +20,37 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_StoneAndDirt
-  m_Shader: {fileID: -6465566751694194690, guid: 8df3b335a694bea4fb9a2fbcf382aadd, type: 3}
-  m_Parent: {fileID: 2100000, guid: e5e8eba541692a848964ebaaf9364987, type: 2}
+  m_Name: M_HoloTrejo
+  m_Shader: {fileID: -6465566751694194690, guid: 1a9587caaf3da7e4b81c7d2d674baf44, type: 3}
+  m_Parent: {fileID: 2100000, guid: 0c364181e88aece449ae1840f4bf0f7a, type: 2}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses:
+  - SHADOWCASTER
   - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 93df5f46db71a6d4495165c09357cc95, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BaseAmplitude: 5
-    - _BlendAmplitude: 7.5
-    - _MaskAmount: 0.375
+    - _Amplitude: 0.75
+    - _Frequency: 75
+    - _Power: 0.125
     m_Colors:
-    - _BaseTiling: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _BlendTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _AlphaRange: {r: 0.25, g: 0.875, b: 0, a: 0}
+    - _Offset: {r: 0, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
