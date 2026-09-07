@@ -66,13 +66,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BaseAmplitude: 3.75
-    - _BlendAmplitude: 2
+    - _BaseAmplitude: 1
+    - _BlendAmplitude: 1
     - _BlendSmoothIntensity: 0.1
-    - _MaskAmount: 0.25
+    - _MaskAmount: 0.625
     m_Colors:
-    - _BaseTiling: {r: 5, g: 5, b: 0, a: 0}
-    - _BlendTiling: {r: 5, g: 5, b: 0, a: 0}
+    - _BaseTiling: {r: 25, g: 25, b: 0, a: 0}
+    - _BlendTiling: {r: 15, g: 15, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5552456066874589786

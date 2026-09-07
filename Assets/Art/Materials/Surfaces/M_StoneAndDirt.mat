@@ -39,7 +39,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _BaseAmplitude: 5
+    - _BaseAmplitude: 3.75
     - _BlendAmplitude: 7.5
     - _MaskAmount: 0.375
     m_Colors:

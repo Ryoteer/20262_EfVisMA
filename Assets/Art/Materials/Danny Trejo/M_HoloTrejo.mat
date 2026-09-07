@@ -46,11 +46,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 0.75
-    - _Frequency: 75
-    - _Power: 0.125
+    - _Amplitude: 0.5
+    - _Frequency: 200
+    - _Power: 0.25
     m_Colors:
-    - _AlphaRange: {r: 0.25, g: 0.875, b: 0, a: 0}
-    - _Offset: {r: 0, g: 5, b: 0, a: 0}
+    - _AlphaRange: {r: 0.125, g: 0.95, b: 0, a: 0}
+    - _Offset: {r: 0, g: 7.5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
