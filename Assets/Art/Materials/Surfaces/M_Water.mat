@@ -38,18 +38,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.875
+    - _Alpha: 1
     - _AngleOffset: 2
-    - _CoastDepth: 0.125
-    - _CoastDistance: 0.5
-    - _DistortionAmount: 0.075
+    - _CoastDepth: 0.5
+    - _CoastDistance: 1
+    - _DepthDistortionAmount: 0.5
+    - _DistortionAmount: 0.25
     - _DistortionAngleOffset: 0.5
     - _NormalStrength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _WaterDepth: 1.25
+    - _WaterDistance: 5
     - _WaveHeight: 1
     m_Colors:
-    - _CoastRange: {r: 0, g: 0.5, b: 0, a: 0}
+    - _CoastRange: {r: 0.25, g: 0.5, b: 0, a: 0}
     - _DistortionOffset: {r: 0.025, g: 0, b: 0, a: 0}
     - _DistortionTiling: {r: 10, g: 10, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
