@@ -54,12 +54,12 @@ Material:
     - _GroundBlendPower: 2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SkyBlendPower: 1.5
-    - _StarsAmount: 0.75
+    - _SkyBlendPower: 0.0001
+    - _StarsAmount: 0.375
     m_Colors:
     - _GroundColor: {r: 0.8773585, g: 0.3609886, b: 0.120016, a: 1}
-    - _HorizonColor: {r: 0.509434, g: 0, b: 0.3637957, a: 1}
+    - _HorizonColor: {r: 0.08235294, g: 0.023529412, b: 0.1882353, a: 1}
     - _SkyColor: {r: 0.08319832, g: 0.0240299, b: 0.1886792, a: 1}
-    - _StarsColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 0}
+    - _StarsColor: {r: 0.9547169, g: 0.9547169, b: 0.9547169, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
