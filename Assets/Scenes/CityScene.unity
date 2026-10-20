@@ -6360,14 +6360,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 351075683947778153}
     m_Modifications:
-    - target: {fileID: 537242817540535742, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 724871706433093029, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 18
-      objectReference: {fileID: 0}
     - target: {fileID: 951413434977120376, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
       propertyPath: m_Name
       value: Water
@@ -6411,34 +6403,6 @@ PrefabInstance:
     - target: {fileID: 1297008347072501436, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1337016731964404902, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 2060616614062985148, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 3642986272029206113, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 4784111736350324143, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
-      propertyPath: blendDistance
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4795407462377797552, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 5349048985421691184, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 7542166738847227501, guid: 14332ccaf9af5984ebab855562b443a0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
