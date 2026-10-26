@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7638498969776089454}
   - component: {fileID: 9167242499531193345}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Game Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,3 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bfad32ef5f42bc4eaf9f0a8cdb0e8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _maxFPS: 151
